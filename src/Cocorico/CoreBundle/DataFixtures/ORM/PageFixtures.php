@@ -30,12 +30,15 @@ class PageFixtures extends Fixture
 
         $page->translate('en')->setMetaTitle('Who we are?');
         $page->translate('fr')->setMetaTitle('Qui sommes nous?');
+        $page->translate('de')->setMetaTitle('Wer wir sind?');
 
         $page->translate('en')->setTitle('Who we are?');
         $page->translate('fr')->setTitle('Qui sommes nous?');
+        $page->translate('de')->setTitle('Wer wir sind?');
 
         $page->translate('en')->setMetaDescription('in progress');
         $page->translate('fr')->setMetaDescription('en cours');
+        $page->translate('fr')->setMetaDescription('in bearbeitung');
 
         $page->translate('en')->setDescription(
             '<p>We are Cocorico of course!</p>
@@ -64,6 +67,19 @@ class PageFixtures extends Fixture
             <h3>Avez-vous une mascotte ?</h3>
             <p>Voici une vid&eacute;o de &quot;Cocotte&quot;&nbsp;: <a href="http://cocorico.rocks/">http://cocorico.rocks/</a></p>'
         );
+        $page->translate('de')->setDescription(
+            '<p> Wir sind natürlich Cocorico!</p>
+            <h3> Was ist das?</h3>
+            <p> Cocorico ist ein Open-Source-Projekt, das sich zum Ziel gesetzt hat, eine leistungsstarke (und kostenlose) Lösung für Miet- und Servicemärkte zu entwickeln.</ p>
+            <h3> Wer bezahlt das alles?</ h3>
+            <p> <a href="http://www.sofracs.com" target="_blank" title="marketplace solution"> SOFRACS</a> ist. Sie sind eine in Paris ansässige Webagentur, die sich auf den Aufbau von Marktplätzen für die Miet- und Dienstleistungsbranche spezialisiert hat. Im Laufe der Jahre beschlossen sie, ihre Arbeit zu teilen, indem sie die Entwicklung von Cocorico finanzierten
+            <h3> Womit haben Sie Cocorico gebaut?</h3>
+            <p> Cocorico basiert auf Symfony 2.</p>
+            <h3> Wo kann ich es bekommen?</h3>
+            <p> Hier: <a target="_blank" href="https://github.com/Cocolabs-SAS/cocorico"> https://github.com/Cocolabs-SAS/cocorico</a></p >
+            <h3> Haben Sie ein Maskottchen?</h3>
+            <p> Hier ist ein Video unserer süßen Henne "Cocotte": <a href="http://cocorico.rocks/"> http://cocorico.rocks/</a></p>'
+        );
 
 
         //Page How it Works
@@ -72,15 +88,19 @@ class PageFixtures extends Fixture
 
         $page1->translate('en')->setMetaTitle('How it works?');
         $page1->translate('fr')->setMetaTitle('Comment ca marche?');
+        $page1->translate('de')->setMetaTitle('Wie es funktioniert?');
 
         $page1->translate('en')->setTitle('How it works?');
         $page1->translate('fr')->setTitle('Comment ca marche?');
+        $page1->translate('de')->setTitle('Wie es funktioniert?');
 
         $page1->translate('en')->setMetaDescription('in progress');
         $page1->translate('fr')->setMetaDescription('en cours');
+        $page1->translate('de')->setMetaDescription('in bearbeitung');
 
         $page1->translate('en')->setDescription('in progress');
         $page1->translate('fr')->setDescription('en cours');
+        $page1->translate('de')->setDescription('in bearbeitung');
 
         //Page The team
         $page2 = new Page();
@@ -88,15 +108,19 @@ class PageFixtures extends Fixture
 
         $page2->translate('en')->setMetaTitle('The team');
         $page2->translate('fr')->setMetaTitle('L\'équipe');
+        $page2->translate('de')->setMetaTitle('Das Team');
 
         $page2->translate('en')->setTitle('The team');
         $page2->translate('fr')->setTitle('L\'équipe');
+        $page2->translate('de')->setTitle('Das Team');
 
         $page2->translate('en')->setMetaDescription('in progress');
         $page2->translate('fr')->setMetaDescription('en cours');
+        $page2->translate('de')->setMetaDescription('in bearbeitung');
 
         $page2->translate('en')->setDescription('in progress');
         $page2->translate('fr')->setDescription('en cours');
+        $page2->translate('de')->setMetaDescription('in bearbeitung');
 
         //Page FAQ
         $page3 = new Page();
@@ -104,15 +128,19 @@ class PageFixtures extends Fixture
 
         $page3->translate('en')->setMetaTitle('FAQ');
         $page3->translate('fr')->setMetaTitle('FAQ');
+        $page3->translate('de')->setMetaTitle('FAQ');
 
         $page3->translate('en')->setTitle('FAQ');
         $page3->translate('fr')->setTitle('FAQ');
+        $page3->translate('de')->setTitle('FAQ');
 
         $page3->translate('en')->setMetaDescription('in progress');
         $page3->translate('fr')->setMetaDescription('en cours');
+        $page3->translate('de')->setMetaDescription('in bearbeitung');
 
         $page3->translate('en')->setDescription('in progress');
         $page3->translate('fr')->setDescription('en cours');
+        $page3->translate('de')->setMetaDescription('in bearbeitung');
 
 
         //Page Legal notices
@@ -121,15 +149,19 @@ class PageFixtures extends Fixture
 
         $page4->translate('en')->setMetaTitle('Legal notices');
         $page4->translate('fr')->setMetaTitle('Mentions légales');
+        $page4->translate('de')->setMetaTitle('Rechtliche hinweise');
 
         $page4->translate('en')->setTitle('Legal notices');
         $page4->translate('fr')->setTitle('Mentions légales');
+        $page4->translate('de')->setTitle('Rechtliche hinweise');
 
         $page4->translate('en')->setMetaDescription('in progress');
         $page4->translate('fr')->setMetaDescription('en cours');
+        $page4->translate('de')->setMetaDescription('in bearbeitung');
 
         $page4->translate('en')->setDescription('in progress');
         $page4->translate('fr')->setDescription('en cours');
+        $page4->translate('de')->setDescription('in bearbeitung');
 
 
         $page5 = new Page();
@@ -137,15 +169,19 @@ class PageFixtures extends Fixture
 
         $page5->translate('en')->setMetaTitle('Terms of use');
         $page5->translate('fr')->setMetaTitle('Conditions générales d\'utilisation');
+        $page5->translate('de')->setMetaTitle('Nutzungsbedingungen');
 
         $page5->translate('en')->setTitle('Terms of use');
         $page5->translate('fr')->setTitle('Conditions générales d\'utilisation');
+        $page5->translate('de')->setTitle('Nutzungsbedingungen');
 
         $page5->translate('en')->setMetaDescription('in progress');
         $page5->translate('fr')->setMetaDescription('en cours');
+        $page5->translate('de')->setMetaDescription('in bearbeitung');
 
         $page5->translate('en')->setDescription('in progress');
         $page5->translate('fr')->setDescription('en cours');
+        $page5->translate('de')->setDescription('in bearbeitung');
 
         $manager->persist($page);
         $manager->persist($page1);

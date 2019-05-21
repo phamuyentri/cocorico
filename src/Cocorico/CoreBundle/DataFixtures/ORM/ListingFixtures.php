@@ -44,17 +44,20 @@ class ListingFixtures extends Fixture implements DependentFixtureInterface
         $country->setCode("FR");
         $country->translate('en')->setName('France');
         $country->translate('fr')->setName('France');
+        $country->translate('de')->setName('France');
 
         $area = new Area();
         $area->setCountry($country);
         $area->translate('en')->setName('Île-de-France');
         $area->translate('fr')->setName('Île-de-France');
+        $area->translate('de')->setName('Île-de-France');
 
         $department = new Department();
         $department->setCountry($country);
         $department->setArea($area);
         $department->translate('en')->setName('Paris');
         $department->translate('fr')->setName('Paris');
+        $department->translate('de')->setName('Paris');
 
         $city = new City();
         $city->setCountry($country);
@@ -62,6 +65,7 @@ class ListingFixtures extends Fixture implements DependentFixtureInterface
         $city->setDepartment($department);
         $city->translate('en')->setName('Paris');
         $city->translate('fr')->setName('Paris');
+        $city->translate('de')->setName('Paris');
 
         $manager->persist($country);
         $manager->persist($area);
@@ -112,9 +116,11 @@ class ListingFixtures extends Fixture implements DependentFixtureInterface
         $listing->addImage($image2);
         $listing->translate('en')->setTitle('Listing One');
         $listing->translate('fr')->setTitle('Annonce une');
+        $listing->translate('de')->setTitle('Listing Eins');
 
         $listing->translate('en')->setDescription('Listing One Description');
         $listing->translate('fr')->setDescription('Description de l\'annonce une');
+        $listing->translate('de')->setDescription('Listing One Beschreibung');
         $listing->setStatus(Listing::STATUS_PUBLISHED);
         $listing->setPrice(10000);
         $listing->setCertified(1);
