@@ -232,7 +232,7 @@
       </trans-unit>
       <trans-unit id="ebe9c24f88a0e40e2069e037cf43c6748475ca57" resname="listing.edit.completion_notice_profile_desc">
         <source>listing.edit.completion_notice_profile_desc</source>
-          <target><![CDATA[<a href="%profile%">Présentez-vous</a>]]></target>
+        <target><![CDATA[<a href="%profile%">Présentez-vous</a>]]></target>
       </trans-unit>
       <trans-unit id="15d1bbc5c27c9dbc99f110c4a826dfe9350a701e" resname="listing.edit.completion_notice_profile_photo">
         <source>listing.edit.completion_notice_profile_photo</source>
@@ -365,6 +365,10 @@
       <trans-unit id="f62cf70f1a648617bfc581e10dfc62a55de0e609" resname="listing.form.end">
         <source>listing.form.end</source>
         <target>Fin</target>
+      </trans-unit>
+      <trans-unit id="fec9441f3a1dcc634592451c06581d025c7886c8" resname="listing.form.isbn">
+        <source>listing.form.isbn</source>
+        <target state="new">ISBN</target>
       </trans-unit>
       <trans-unit id="92611c855391697cd7b1edb3c13cd7452acceb18" resname="listing.form.location.city">
         <source>listing.form.location.city</source>
